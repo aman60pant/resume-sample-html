@@ -24,7 +24,7 @@
         }
 
         h6 {
-            color: green;
+            color: black;
             font-size: large;
         }
 
@@ -38,19 +38,29 @@
         }
 
         p {
-            font-size: 16px;
+            font-size: 20px;
         }
 
         ul li {
-            font-size: 16px;
+            font-size: 18px;
             margin-bottom: 10px;
         }
 
-        h1, h5 {
+        h5 {
+            color: black;
+        }
+
+        h1,
+        span {
             color: white;
         }
+
         h5 {
-            /* font-size: ; */
+            font-size: 22px;
+        }
+
+        div {
+            box-sizing: border-box;
         }
     </style>
 </head>
@@ -58,10 +68,147 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 d-flex" style="background-color: rgba(102, 104, 248, 0.623);">
-                <img src="john.png" alt="profile-pic">
-                <h1>John Doe</h1>
-                <h5>Creative and Innovative </h5>
+            <div class="col-lg-4" style="padding: 0;">
+
+                <div class="col-lg-12 d-flex" style="background-color: rgba(102, 104, 248, 0.623);">
+                    <img src="john.png" alt="profile-pic">
+                    <h1>John Doe</h1>
+                    <h5 style="color: white;">Creative and Innovative Web Developer</h5>
+                    <span>
+                        <i class="bi bi-geo-alt-fill text-danger me-2"></i>
+                          Pleasantvilla, CA 94588
+                    </span><br>
+                    <span>
+                        <i class="bi bi-telephone">  +91 56412 54879</i>
+                    </span>
+                    <br>
+                    <span>
+                        <i class="bi bi-envelope-fill">  john.doe@gmail.com</i>
+                    </span>
+                    <br>
+                    <span>
+                        <i class="bi bi-link-45deg">  http://john.doe.com</i>
+                    </span>
+                </div>
+                <div class="col-lg-12 d-flex" style="background-color: rgb(226, 226, 255);">
+                    <br>
+                    <h6>Profiles</h6>
+                    <hr style="border: none; border-top: 3px solid rgba(102, 104, 248, 0.623); margin-top: 0;">
+                    <i class="bi bi-linkedin" style="font-size: 2rem; color: #0a66c2;"><a href="#"
+                            style="color: black; text-decoration: underline;">
+                            Johndoe</a>
+                    </i>
+                    <br>
+                    <i class="bi bi-github" style="font-size: 2rem; color: #333;"><a href="#"
+                            style="color: black; text-decoration: underline;">
+                            Johndoe</a></i>
+                    <br><br>
+                    <h6>Skills</h6>
+                    <hr style="border: none; border-top: 3px solid green; margin-top: 0;">
+                    <h3>Web technologies</h3>
+                    <h5>Advanced</h5>
+                    <h5>HTML5, Java Script, PHP, Python</h5>
+                    <h3>Web Frameworks</h3>
+                    <h5>Intermediate</h5>
+                    <h5>React.js, Angular, Vue.js, Laravel, Django</h5>
+                    <h3>Tools</h3>
+                    <h5>Intermediate</h5>
+                    <h5>Webpack, Git, Jenkins, Docker, JIRA</h5>
+                    <br><br>
+                    <h6>Certifications</h6>
+                    <hr style="border: none; border-top: 3px solid green; margin-top: 0;">
+                    <h3>Full-Stack Web Development</h3>
+                    <h5>Code Academy</h5>
+                    <h5><b>2020</b></h5>
+                    <h3>AWS Certified Developer</h3>
+                    <h5>Amazon Web Services</h5>
+                    <h5><b>2019</b></h5>
+                </div>
+            </div>
+            <div class="col-lg-8" style="margin: 0 0; padding: 0;">
+                <section style="background-color: rgb(226, 226, 255);">
+                    <p>Innovative Web Developer with 5 years of experience in
+                        building impactful and user-friendly websites and
+                        applications. Specializes in front-end technologies and
+                        passionate about modern web standards and cutting-edge
+                        development techniques. Proven track record of leading
+                        successful projects from concept to deployment.</p>
+                </section>
+                <h3>Experience</h3>
+                    <hr
+                        style="border: none; border-top: 2px solid black; margin: 0 0;">
+                    <div class="col-lg-12">
+                        <div class="col-lg-6">
+                            <h3>Creative Solutions Inc.</h3>
+                            <h4>Senior Web
+                                Developer</h4>
+                        </div>
+                        <div class="col-lg-6" style="text-align: right;">
+                            <h3>January 2019 to Present</h3>
+                            <h4>Senior Web
+                                Developer</h4>
+                        </div>
+                        <p><i
+                                class="bi bi-link-45deg">http://creative-solutions.com</i></p>
+                        <ul>
+                            <li>Spearheaded the redesign of the main product
+                                website, resulting in a 40% increase in user
+                                engagement.</li>
+                            <li>Developed and implemented a new responsive
+                                framework, improving cross-device
+                                compatibility.</li>
+                            <li>Mentored a team of four junior developers,
+                                fostering a culture of technical
+                                excellence.</li>
+                        </ul>
+                        <div class="col-lg-4">
+                            <h3>Tech Advancers</h3>
+                            <h4>Web Developer</h4>
+                        </div>
+                        <div class="col-lg-8" style="text-align: right;">
+                            <h3>June 2016 To December 2018</h3>
+                            <h4>San Jose, CA</h4>
+                        </div>
+                        <p><i
+                                class="bi bi-link-45deg">http://techadvancers.com/</i></p>
+                        <ul>
+                            <li>Collaborated in a team of 10 to develop
+                                high-quality web applications using React.js and
+                                Node.js.</li>
+                            <li>Managed the integration of third-party services
+                                such as Stripe for payments and Twilio for SMS
+                                services.</li>
+                            <li>Optimized application performance, achieving a
+                                30% reduction in load times.</li>
+                        </ul>
+                    </div>
+                    <h3>Education</h3>
+                    <hr
+                        style="border: none; border-top: 2px solid black; margin: 0 0;">
+                    <div class="col-lg-12">
+                        <div class="col-lg-6">
+                            <h3>University of California</h3>
+                            <h4>Barkeley, CA</h4>
+                        </div>
+                        <div class="col-lg-6" style="text-align: right;">
+                            <h3>August 2012 to May 2016</h3>
+                            <h4>Bachelor's in Computer Science</h4>
+                        </div>
+                    </div><br>
+                    <div class="col-lg-12">
+                        <h3>Projects</h3>
+                        <hr
+                            style="border: none; border-top: 2px solid black; margin: 0 0;">
+                        <h3>E-Commerce Platform</h3>
+                        <h4>Project Lead</h4>
+                        <p>Led the development of a full stack e-commerce
+                            platform, improving sales conversion by 25%.</p>
+                        <h3>Interactive Dashboard</h3>
+                        <h4>Frontend Developer</h4>
+                        <p>Created an interactive analytics Dashboard for a SaaS
+                            application, enhancing data visualization for
+                            clients.</p>
+                    </div>
             </div>
         </div>
     </div>
